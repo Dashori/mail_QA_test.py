@@ -11,7 +11,7 @@ def test_multiplication():
 
     
 ##тест через параметризацию на сложение чисел   
-@pytest.mark.parametrize("a, b, res", [(5, 5, 10), (10, -10, 0), (0, 1, 0)])
+@pytest.mark.parametrize("a, b, res", [(5, 5, 10), (10, -10, 0), (0, 1, 1)])
 
 def test_addition(a, b, res):
     assert addition(a, b) == res
